@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+    <title>ToDoList</title>
+</head>
+<body>
+    <section class="container">
+        <div class="backdrop-color"></div>
+        <div class="home-screen">
+            <div class="ham-menu">
+                <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 18H10" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 12L16 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                    <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+        <div class="home-info">
+            <div class="left">
+                <h2>Hello User</h2>
+                <p>Today you have <span>233</span> tasks</p>
+            </div>
+            <img src="./imgs/boy.png" alt="">
+        </div>
+        <div class="lists">
+            <div class="item">
+                <img src="./imgs/boy.png" alt="">
+                <div class="caption">
+                    <h1>Personal</h1>
+                    <p>7 Tasks</p>
+                </div>
+                <div class="toggle-btn">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.96 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>3-vertical-dots</title><path class="cls-1" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Zm0,92.93a15,15,0,1,1-15,15,15,15,0,0,1,15-15Zm0-46.47a15,15,0,1,1-15,15,15,15,0,0,1,15-15Z"/></svg>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./imgs/briefcase.png" alt="">
+                <div class="caption">
+                    <h1>work</h1>
+                    <p>3 Tasks</p>
+                </div>
+                <div class="toggle-btn">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.96 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>3-vertical-dots</title><path class="cls-1" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Zm0,92.93a15,15,0,1,1-15,15,15,15,0,0,1,15-15Zm0-46.47a15,15,0,1,1-15,15,15,15,0,0,1,15-15Z"/></svg>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./imgs/shopping.png" alt="">
+                <div class="caption">
+                    <h1>Shopping</h1>
+                    <p>3 Tasks</p>
+                </div>
+                <div class="toggle-btn">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.96 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>3-vertical-dots</title><path class="cls-1" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Zm0,92.93a15,15,0,1,1-15,15,15,15,0,0,1,15-15Zm0-46.47a15,15,0,1,1-15,15,15,15,0,0,1,15-15Z"/></svg>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./imgs/web-design.png" alt="">
+                <div class="caption">
+                    <h1>Coding</h1>
+                    <p>3 Tasks</p>
+                </div>
+                <div class="toggle-btn">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.96 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>3-vertical-dots</title><path class="cls-1" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Zm0,92.93a15,15,0,1,1-15,15,15,15,0,0,1,15-15Zm0-46.47a15,15,0,1,1-15,15,15,15,0,0,1,15-15Z"/></svg>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./imgs/healthcare.png" alt="">
+                <div class="caption">
+                    <h1>Health</h1>
+                    <p>3 Tasks</p>
+                </div>
+                <div class="toggle-btn">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.96 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>3-vertical-dots</title><path class="cls-1" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Zm0,92.93a15,15,0,1,1-15,15,15,15,0,0,1,15-15Zm0-46.47a15,15,0,1,1-15,15,15,15,0,0,1,15-15Z"/></svg>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./imgs/boy.png" alt="">
+                <div class="caption">
+                    <h1>Personal</h1>
+                    <p>7 Tasks</p>
+                </div>
+                <div class="toggle-btn">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.96 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>3-vertical-dots</title><path class="cls-1" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Zm0,92.93a15,15,0,1,1-15,15,15,15,0,0,1,15-15Zm0-46.47a15,15,0,1,1-15,15,15,15,0,0,1,15-15Z"/></svg>
+                </div>
+            </div>
+        </div>
+        <!--task screen-->
+        <div class="list-screen">
+            <div class="head">
+                <div class="back-menu">
+                    <svg fill="#000000" height="800px" width="800px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+	                    viewBox="0 0 330 330" xml:space="preserve">
+                        <path id="XMLID_27_" d="M15,180h263.787l-49.394,49.394c-5.858,5.857-5.858,15.355,0,21.213C232.322,253.535,236.161,255,240,255
+	                    s7.678-1.465,10.606-4.394l75-75c5.858-5.857,5.858-15.355,0-21.213l-75-75c-5.857-5.857-15.355-5.857-21.213,0
+	                    c-5.858,5.857-5.858,15.355,0,21.213L278.787,150H15c-8.284,0-15,6.716-15,15S6.716,180,15,180z"/>
+                    </svg>
+                </div>
+                <div class="toggle-btn">
+                    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.96 122.88"><defs><style>.cls-1{fill-rule:evenodd;}</style></defs><title>3-vertical-dots</title><path class="cls-1" d="M15,0A15,15,0,1,1,0,15,15,15,0,0,1,15,0Zm0,92.93a15,15,0,1,1-15,15,15,15,0,0,1,15-15Zm0-46.47a15,15,0,1,1-15,15,15,15,0,0,1,15-15Z"/></svg>
+                </div>
+            </div>
+            <div class="category-details">
+                <img class="task-img" src="./imgs/boy.png" alt="">
+                <div class="caption">
+                    <p class="task-length">7 Tasks</p>
+                    <h1 class="task-title">Personal</h1>
+                </div>
+            </div>
+            <div class="tasks">
+                <div class="task">
+                    <div class="leftside">
+                        <input type="checkbox" name="" id="task">
+                        <label for="task">
+                            Buy a new car
+                        </label>
+                    </div>
+                    <div class="rightside">
+                        <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 11V17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 11V17" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4 7H20" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 7H12H18V18C18 19.6569 16.6569 21 15 21H9C7.34315 21 6 19.6569 6 18V7Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 5C9 3.89543 9.89543 3 11 3H13C14.1046 3 15 3.89543 15 5V7H9V5Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--add task btn-->
+        <div class="insert">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                <g fill="#f9ea85" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.683,0 -23,10.317 -23,23c0,12.683 10.317,23 23,23c12.683,0 23,-10.317 23,-23c0,-12.683 -10.317,-23 -23,-23zM37,26h-11v11h-2v-11h-11v-2h11v-11h2v11h11z"></path></g></g>
+            </svg>
+        </div>
+
+        <!--add task form and input-->
+        <div class="form">
+            <div class="backdrop-radius"></div>
+            <div class="backdrop-blur"></div>
+            <div class="input1">
+                <label for="input1-task">Task</label>
+                <input type="text" name="" id="input1-task" required>
+            </div>
+            <div class="input2">
+                <label for="input2-category">Category</label>
+                <select name="" id="input2-category">
+                    <option value="Personal">Personal</option>
+                </select>
+            </div>
+            <div class="form-btns">
+                <button id="cancel-btn">Cancel</button>
+                <button id="add-btn">Add</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
